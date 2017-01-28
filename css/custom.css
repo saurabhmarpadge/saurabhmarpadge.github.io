@@ -1,0 +1,33 @@
+html {
+  color: #353535;
+    background: rgba(234, 234, 234, 1.0);
+}
+section{
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+}
+.cl_white{
+  color: black;
+
+}
+img {
+  width: 300px;
+  transition: opacity 1s ease-in-out;
+}
+img: hover{
+  opacity: .5;
+}
+/*
+#home{
+  background: url(img/header.jpg);
+  background-size: 100% 100%;
+}
+*/
+a{
+	color: black;
+}
+
+#download {
+  padding-left: 350px;
+}

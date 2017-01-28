@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Personal Protfolio">
+    <meta name="author" content="Saurabhkumar Marpadge">
+    <link rel="shortcut icon" href="img/profile.jpg">
+    <title>Programming Enthusiast</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+<body data-spy="scroll" data-target=".navbar">
+	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+		<ul class="nav navbar-nav">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#work">What I do</a></li>
+			<li><a href="#about">What about me</a></li>
+      <li><a href="#" data-toggle="modal" data-target="#resume">Resume</a></li>
+			<li><a href="#contact">Contact me</a></li>
+		</ul>
+	</nav>
+	<section id="home" style="background: url(img/header.jpg); background-size: 100% 100%;" class="cl_white text-center">
+    <div class="row" style="height: 100%;">
+      <div class="col-md-4" align="center" style=" height:85%; padding:75px;" >
+          <img src="https://avatars1.githubusercontent.com/u/14952088?v=3&s=400" class="img-rounded" alt="Cinque Terre"  >
+      </div>
+
+      <div class="col-md-8" align="center" style=" height:85%;//border:1px solid red;">
+        <h1>Saurabhkumar Marpadge</h1>
+    		<p class="lead">Programming is a whole new world.</p>
+    		<button class="btn btn-default"><a href="#contact">Contact me</a></button>
+        <h3 padding-top:"10px">Work in progress</h3>
+      </div>
+    </div>
+
+	</section>
+	<section id="work" class="container">
+		<div class="page-header">
+			<h1 class="text-center">My Work</h1>
+		</div>
+		<div align="center">
+      <img src="img/1.jpg" class="img-thumbnail">
+  		<img src="img/2.jpg" class="img-thumbnail">
+  		<img src="img/1.jpg" class="img-thumbnail">
+  		<img src="img/2.jpg" class="img-thumbnail">
+  		<img src="img/1.jpg" class="img-thumbnail">
+  		<img src="img/2.jpg" class="img-thumbnail">
+    </div>
+	</section>
+
+
+  <section id="about" class="container" >
+    <div class="page-header">
+			<h1 class="text-center">About Me</h1>
+		</div>
+	</section>
+
+	<section id="contact" class="container" >
+    <div class="page-header">
+			<h1 class="text-center">Contact Me</h1>
+		</div>
+      <ul class="list-inline" id="sidebar-buttons" align="center">
+
+        <li>
+              <a href="mailto:saurabhmarpadge@gmail.com" target="_blank" class="btn  btn-social-icon btn-google">
+                <span class="fa fa-at"></span>
+              </a>
+        </li>
+        <li>
+              <a href="https://github.com/saurabhmarpadge" target="_blank" class="btn  btn-social-icon btn-github">
+                <span class="fa fa-github"></span>
+              </a>
+        </li>
+        <li>
+              <a href="https://in.linkedin.com/in/saurabhmarpadge" target="_blank" class="btn  btn-social-icon btn-linkedin">
+                <span class="fa fa-linkedin"></span>
+              </a>
+        </li>
+        <li>
+              <a href="https://www.hackerrank.com/saurabh_9" target="_blank" class="btn  btn-social-icon" style="background:#21B352;">
+                <img src="img/hackerrank.png"/>
+              </a>
+        </li>
+    </ul>
+
+	</section>
+
+  <!-- Modal -->
+  <div id="resume" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Resume</h4>
+        </div>
+        <div class="modal-body">
+          <div class="content container">
+              <div class="page">
+                <div class="download">
+                    <a href="pdf/resume.pdf" id="download">View/Download PDF</a>
+                </div>
+                <div class="pdf-container">
+                    <object data="pdf/resume.pdf" type="application/pdf" style="width: 75%; height: 1000px; display: block;">
+                      <p>It appears you don't have a PDF plugin for this browser.
+                      No biggie... you can <a href="pdf/resume.pdf">click here to
+                      download the PDF file.</a></p>
+                    </object>
+                </div>
+              </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
