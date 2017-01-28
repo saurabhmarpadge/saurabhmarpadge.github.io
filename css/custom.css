@@ -164,3 +164,12 @@ a{
             transition: all 0.3s 1s ease-out;
 
 }
+
+
+.contact-form {
+    margin:70px 20% 0 20% ;
+}
+
+.col-xs-6{
+  padding-bottom: 10px;
+}
