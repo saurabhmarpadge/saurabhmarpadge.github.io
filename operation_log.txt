@@ -151,3 +151,14 @@ server is https://crashreporter.atom.io
 maximum 128 reports/day
 reporter is electron-crash-service
 [6384:5708:0129/051823:ERROR:crash_service.cc(295)] could not start dumper
+[8532:8960:0129/052745:VERBOSE1:crash_service.cc(317)] client start. pid = 5032
+[11568:9728:0129/052746:VERBOSE1:crash_service_main.cc(76)] Session start. cmdline is [--reporter-url=https://crashreporter.atom.io --application-name=Atom --v=1]
+[11568:9728:0129/052746:VERBOSE1:crash_service.cc(142)] window handle is 002703AE
+[11568:9728:0129/052746:VERBOSE1:crash_service.cc(284)] pipe name is \\.\pipe\Atom Crash Service
+dumps at 
+[11568:9728:0129/052746:VERBOSE1:crash_service.cc(288)] checkpoint is crash_checkpoint.txt
+server is https://crashreporter.atom.io
+maximum 128 reports/day
+reporter is electron-crash-service
+[11568:9728:0129/052746:ERROR:crash_service.cc(295)] could not start dumper
+[8532:3824:0129/052746:VERBOSE1:crash_service.cc(325)] client end. pid = 5032
