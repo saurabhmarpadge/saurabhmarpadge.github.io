@@ -1,13 +1,3 @@
-$(window).ready(function() {
-
-    setTimeout(function(){
-        $('body').addClass('loaded');
-        $('h1').css('color','#222222');
-    }, 0);
-
-});
-
-
 (function () {
 
   var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;

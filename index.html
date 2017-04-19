@@ -8,13 +8,17 @@
     <meta name="description" content="Personal Protfolio">
     <meta name="author" content="Saurabhkumar Marpadge">
     <link rel="shortcut icon" href="img/profile.jpg">
-    <title>Programming Enthusiast</title>
+    <title>Saurabhkumar Marpadge</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:200,400,800" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-social.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/css/site.css" />
+
   </head>
 
 
@@ -26,9 +30,12 @@
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
   </div>
-    <div id="content">
 
-	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+
+
+<!--
+  <div id="content">
+  <nav class="navbar navbar-inverse navbar-fixed-bottom">
 		<ul class="nav navbar-nav">
 			<li><a href="#home">Home</a></li>
 			<li><a href="#work">What I do</a></li>
@@ -37,7 +44,24 @@
 			<li><a href="#contact">Get In Touch</a></li>
 		</ul>
 	</nav>
-	<section id="home" style="background: url(img/header.jpg); background-size: 100% 100%;" class="cl_white text-center">
+  -->
+  <div class="container site-main" style="background: url(img/main-bg.jpg); background-size: 100% 100% !important;">
+    <div class="content">
+      <div id="large-header" class="large-header">
+        <canvas id="demo-canvas"></canvas>
+        <h1 class="main-title">
+            Saurabhkumar Marpadge
+            <br>
+            <img class="face" src="https://avatars1.githubusercontent.com/u/14952088?v=3&s=400">
+            <p class="subtext" >
+              Developer. Student. Learner.
+            </p>
+          </h1>
+      </div>
+  </div>
+</div>
+  <!--
+  <section id="home" style="background: url(img/header.jpg); background-size: 100% 100%;" class="cl_white text-center">
     <div class="row" style="height: 100%;">
       <div class="col-md-4" align="center" style=" height:85%; padding:75px;" >
           <img src="https://avatars1.githubusercontent.com/u/14952088?v=3&s=400" class="img-rounded" alt="Cinque Terre"  >
@@ -45,33 +69,35 @@
 
       <div class="col-md-8" align="center" style=" height:85%;//border:1px solid red;">
         <h1>Saurabhkumar Marpadge</h1>
-    		<p class="lead">Programming is a whole new world.</p>
+    		<p class="lead">Developer. Student. Learner.</p>
     		<button class="btn btn-default"><a href="#contact">Get In Touch</a></button>
         <h3 padding-top:"10px">Work in progress</h3>
       </div>
     </div>
 
 	</section>
-	<section id="work" class="container">
+-->
+  <section id="work" class="container">
 		<div class="page-header">
 			<h1 class="text-center">My Work</h1>
 		</div>
-		<div align="center">
-      <div class="block">
-        <div class='photo'>
-              <div class='image'><a href='#'><img src="img/stockindicator.png" class="img-thumbnail" alt="ExtraMagnet"></a></div>
-              <div class='photo-name'>Name</div>
-        </div>
-        <div class='photo'>
-              <div class='image'><a href='#'><img src="img/stockindicator.png" class="img-thumbnail" alt="ExtraMagnet"></a></div>
-              <div class='photo-name'>Name</div>
-        </div>
-        <div class='photo'>
-              <div class='image'><a href='#'><img src="img/stockindicator.png" class="img-thumbnail" alt="ExtraMagnet"></a></div>
-              <div class='photo-name'>Name</div>
-        </div>
-
+    <div class="block">
+      <div class="image">
+        <img src="img/stockindicator.png" class="img-thumbnail" alt="ExtraMagnet">
+          <h2 id="h2image">ExtraMagnet</h2>
       </div>
+      <div class="image">
+        <img src="img/2.png" class="img-thumbnail" alt="Stock Indicator">
+          <h2 id="h2image">Stock Indicator</h2>
+      </div>
+      <div class="image">
+        <img src="img/travel.jpg" class="img-thumbnail" alt="Travel Agency">
+        <h2 id="h2image">Travel Agency</h2>
+      </div>
+
+    </div>
+    <!--
+		<div align="center">
 
       <img src="img/stockindicator.png" class="img-thumbnail" alt="ExtraMagnet">
   		<img src="img/2.png" class="img-thumbnail" alt="Stock Indicator">
@@ -79,7 +105,9 @@
   		<img src="img/2.png" class="img-thumbnail">
   		<img src="img/1.jpg" class="img-thumbnail">
   		<img src="img/2.png" class="img-thumbnail">
+
     </div>
+  -->
 	</section>
 
 
@@ -142,7 +170,6 @@
 
 
 	</section>
-
   <!-- Modal -->
   <div id="resume" class="modal fade" role="dialog">
     <div class="modal-dialog modal-lg">
@@ -157,7 +184,7 @@
           <div class="content container">
               <div class="page">
                 <div class="download">
-                    <a href="pdf/SAURABHKUMAR_MARPADGE.pdf" id="download">View/Download PDF</a>
+                    <a href="pdf/Saurabhkumar_Marpadge.pdf" id="download">View/Download PDF</a>
                 </div>
                 <div class="pdf-container">
                     <object data="pdf/Saurabhkumar_Marpadge.pdf" type="application/pdf" style="width: 75%; height: 1000px; display: block;">
@@ -184,6 +211,26 @@
 	<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
 	<script src="js/bootstrap.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/js/TweenLite.min.js"></script>
+  <script src="js/js/EasePack.min.js"></script>
+  <script src="js/js/rAF.js"></script>
+  <script src="js/js/site-main.js"></script>
+
+  <script type="text/javascript">
+  var sc_project=11031950;
+  var sc_invisible=1;
+  var sc_security="dc0c1d97";
+  var scJsHost = (("https:" == document.location.protocol) ?
+  "https://secure." : "http://www.");
+  document.write("<sc"+"ript type='text/javascript' src='" +
+  scJsHost+
+  "statcounter.com/counter/counter.js'></"+"script>");
+  </script>
+  <noscript><div class="statcounter"><a title="shopify
+  analytics tool" href="http://statcounter.com/shopify/"
+  target="_blank"><img class="statcounter"
+  src="//c.statcounter.com/11031950/0/dc0c1d97/1/"
+  alt="shopify analytics tool"></a></div></noscript>
   </div>
 </body>
 
