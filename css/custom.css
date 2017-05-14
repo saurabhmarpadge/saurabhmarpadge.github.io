@@ -1,3 +1,9 @@
+
+.clinic{
+  width: 250px !important;
+  height: 250px !important;
+}
+
 html {
     color: #353535;
     background: rgba(234, 234, 234, 1.0);
@@ -30,7 +36,9 @@ a{
 
 #download {
   padding-left: 350px;
+  font-size: 2em !important;
 }
+
 /*
  *Preloader
  */
@@ -197,6 +205,7 @@ img {
 #h2image {
   width: 300px;
   text-align: center;
+  font-size: 2em !important;
 }
 
 .large-header{
@@ -205,13 +214,57 @@ img {
 }
 .content{
   width: 100% !important;
-  border-radius: 5px;
-  border-color: red;
-  border-style: solid;
-
 }
 .site-main{
   width: 100%;
   height: 100vh;
   font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+
+.info{
+  margin: 0 15% 0 15%;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+
+@media only screen and (min-width: 0px) and ( max-width: 490px) {
+  .name{
+    display: none;
+  }
+  .subtext{
+    display: none;
+  }
+  #xs-name{
+    margin-left: 0px !important;
+    text-align: none !important;
+  }
+
+  #h2image{
+    font-size: 2em !important;
+  }
+  .contact-form{
+    margin:50px 5% 0 5% ;
+  }
+  #about{
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+  }
+
+  .list-inline{
+    padding-top: 5%;
+  }
+
+  .info{
+    margin: 0 5% 0 5%;
+  }
+  #download {
+    padding-left: 17%;
+    font-size: 2em !important;
+  }
+  .pdfreader{
+    height: 450px !important;
+    width: 100% !important;
+  }
 }

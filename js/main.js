@@ -5,6 +5,8 @@ $(window).ready(function() {
         $('h1').css('color','#222222');
     }, 0);
 
+    document.getElementById("xs-name").style.fontSize = 20 +'px';
+    document.getElementById("xs-subtext").style.fontSize = 19 +'px';
 });
 
 
@@ -26,7 +28,6 @@ $(window).ready(function() {
 
     largeHeader = document.getElementById('large-header');
     largeHeader.style.height = height + 'px';
-
     canvas = document.getElementById('demo-canvas');
     canvas.width = width;
     canvas.height = height;
