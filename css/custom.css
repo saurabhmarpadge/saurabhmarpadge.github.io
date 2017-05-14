@@ -1,3 +1,6 @@
+#viewresume{
+  text-align: center;
+}
 
 .clinic{
   width: 250px !important;
@@ -261,10 +264,17 @@ img {
   }
   #download {
     padding-left: 17%;
-    font-size: 2em !important;
+    font-size: 1.8em !important;
   }
   .pdfreader{
     height: 450px !important;
     width: 100% !important;
+  }
+
+  #demo-canvas{
+    display: none !important;
+    border-radius: 5px;
+    border-color: red;
+    border-style: solid;
   }
 }
