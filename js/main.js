@@ -1,9 +1,9 @@
-$(window).ready(function() {
+$(window).load(function() {
 
     setTimeout(function(){
         $('body').addClass('loaded');
         $('h1').css('color','#222222');
-    }, 0);
+    }, 500);
 
     document.getElementById("xs-name").style.fontSize = 20 +'px';
     document.getElementById("xs-subtext").style.fontSize = 19 +'px';
