@@ -230,6 +230,13 @@ img {
   text-align: justify;
 }
 
+#about{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#viewresume{
+  font-size: 0.9em;
+}
 
 @media only screen and (min-width: 0px) and ( max-width: 490px) {
   .name{
@@ -252,7 +259,6 @@ img {
   #about{
     padding-top: 0px;
     padding-bottom: 0px;
-
   }
 
   .list-inline{
